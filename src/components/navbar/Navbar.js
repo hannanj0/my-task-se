@@ -22,7 +22,7 @@ const Navbar = () => {
                     <li><a href='#'>Forum</a></li>
                     <li><a href='#'>Contact</a></li>
                 </ul>
-                <div className='hamburger' onClick={handleClick}>
+                <div className='icon' onClick={handleClick}>
                     {click ? (<FaRegTimesCircle className='icon' />) : (<HiOutlineMenuAlt4 className='icon' />)}
                 
                 </div>
